@@ -57,10 +57,6 @@ python count_objects.py -b <bucket-name> -a <api-url> -k <access-key> -s <secret
 python count_objects.py -b mybucket -a https://s3.example.com -k myAccessKey -s mySecretKey
 ```
 
-## Security Notice
-⚠️ **Do not hardcode credentials in the script if sharing or publishing it!**
-Use environment variables or a configuration file to keep them secure.
-
 ## License
 This project is licensed under the MIT License.
 
